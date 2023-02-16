@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#correct {
+  @apply bg-green-300 text-neutral-700;
+}
+
+#almost {
+  @apply bg-orange-300 text-neutral-700;
+}
+
+#error {
+  @apply bg-gray-400 text-neutral-700;
+}
+
+#big {
+  width: 100px;
+}
+#disabled {
+  @apply bg-gray-400 text-emerald-600 grayscale cursor-not-allowed;
+}
